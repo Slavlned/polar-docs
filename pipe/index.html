@@ -702,10 +702,10 @@
 <h1 id="pipe-operator">Pipe Operator</h1>
 <h3 id="pipe-operator-example">Pipe operator example:</h3>
 <div class="highlight"><pre><span></span><code>func c() = {
-    back(&#39;hello&#39;)
+    return(&#39;hello&#39;)
 }
 func b(value, additional) = {
-    back(value + additional)
+    return(value + additional)
 }
 func a(some_val) = {
     put(some_val())
